@@ -213,8 +213,6 @@ class MainT(object):
 
 
 if __name__ == '__main__':
-    # ssr = "ssr://MTMuMjMxLjQzLjIwMzo4MDgxOm9yaWdpbjphZXMtMjU2LWNmYjp0bHMxLjJfdGlja2V0X2F1dGg6TTBneVlVNDFSMjV0Lz9vYmZzX3BhcmFtPSZwcm90b2NvbF9wYXJhbT0mcmVtYXJrcz1VMU5TJmdyb3VwPVpuSmxaVjl6YzNJPQ=="
-
     sample = """
     请按照正确的格式输入 --> python3 ssr_client.py -d 'ssr://123' 
     -d 后台运行ssr
@@ -237,9 +235,3 @@ if __name__ == '__main__':
     else:
         print(sample)
 
-    # pssr = ParseSSR(ssr)
-    # print(pssr.run())
-
-    # ssr = "ssr://MTE3LjI4LjI0Mi4xMzc6OTM1OTpvcmlnaW46YWVzLTI1Ni1jZmI6cGxhaW46TnpNeE1UYzVOakk9Lz9vYmZzX3BhcmFtPSZwcm90b2NvbF9wYXJhbT0mcmVtYXJrcz1VMU5TJmdyb3VwPVpuSmxaVjl6YzNJPQ=="
-    #
-    # MainT.run(ssr)
