@@ -221,7 +221,7 @@ class MainT(object):
 
 if __name__ == '__main__':
     sample = """
-    请按照正确的格式输入 --> python3 ssr_client.py -d 'ssr://123' 
+    请按照正确的格式输入 --> python3 ssr_client_python.py -d 'ssr://123' 
     -d 后台运行ssr
     -gen 生成相应的config json文件
     -che 获取当前ssr地址
