@@ -103,6 +103,9 @@ class ParseSSR(object):
 
 
 class ParseLocation(object):
+    """
+    解析ip位置
+    """
     def __init__(self, ip_add_str):
         self.ip_add = ip_add_str
 
@@ -121,6 +124,9 @@ class ParseLocation(object):
 
 
 class Connection(object):
+    """
+    连接ssr
+    """
     def __init__(self, para, model):
         self.para = para
         self.model = model
@@ -187,6 +193,9 @@ class Connection(object):
 
 
 class MainT(object):
+    """
+    主流程
+    """
     def __init__(self):
         pass
 
