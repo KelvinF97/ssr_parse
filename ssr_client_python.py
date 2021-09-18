@@ -59,7 +59,6 @@ class ParseSSR(object):
         if len(parts) != 6:
             return '不能解析SSR链接: %s' % base64_encode_str
 
-        # print(parts)
         server = parts[0]
         port = parts[1]
         protocol = parts[2]
@@ -101,7 +100,6 @@ class ParseSSR(object):
             "protocol_param": protocol_param,
             "group": group
         }
-        # print(self.result_dict)
 
 
 class ParseLocation(object):
